@@ -1,0 +1,64 @@
+
+  .navbar  {
+    height: 50px;
+    border: 1px solid black;
+  }
+  
+  .navbar-logo{
+    float:left;
+    list-style-type: none;
+    border: 1px solid black;
+  }
+  
+  .navbar-logo li{
+    background-color: #FF690F;
+    width: 20px;
+    display:inline;
+    border-radius: 3px;
+  /*   border: 1px solid black; */
+    padding: 4px;
+  }
+  
+  .navbar-logo li a{
+      color: white;
+  /*    margin:0; */
+     padding-left: 4px;
+     padding-right: 4px;
+  }
+  
+  .navbar-elements {
+    height: 48px;
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 18px;
+  }
+  
+  .navbar-elements li {
+    display: inline;  
+  }
+  
+  .navbar-elements li a {
+  /*     border: 1px solid black;  */
+      color: black; 
+      padding-left: 30px;
+      padding-right: 30px;
+  /*     padding: 20px; */
+  }
+  
+  .navbar-elements li a:hover{
+     color: #FF690F;
+    transition-duration: .3s;
+  }
+  
+  .navbar-user {
+    float: right;
+    list-style-type: none;
+    border: 1px solid black;
+  }
+  
+  
+  .topbar {
+      height: 150px;
+      background-image: linear-gradient(to right, #FF690F, #E8381B);;
+  }
